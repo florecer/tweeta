@@ -2,7 +2,8 @@
 
 ### Development Setup
 
-- __fill me__
+- https://projects.invisionapp.com/share/YE5FRVG8H#/screens/124806233
+- https://dev.twitter.com/web/javascript
 
 ### Development Guidelines
 
