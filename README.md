@@ -2,14 +2,18 @@
 
 ### Development Setup
 
-- __fill me__
+- __Info Links__
+
+https://dev.twitter.com/web/javascript
 
 ### Development Guidelines
 
-- start a branch for new `features, bug-fixes, experimental-stuff`
+- start a branch called Primer_Orden
+
+
 - to request a merge create a new `pull request`
 - we do not allow merging to master without previous revision
 
 ### CSS Guidelines
 
-- __fill me__
+- __Arbole__
