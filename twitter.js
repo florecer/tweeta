@@ -6,13 +6,20 @@ twitter = new twit({
 	access_token_secret: 'wQbHPc0dMKWg1CK54Su4aqfRZleqZBJnd7PK0NcSUgTxu'
 });
 
-var count = 0,
-	util = require('util');
 
-twitter.stream('statuses/filter', {track: 'Rome'}, function(stream){
+var	util = require('util');
+
+twitter.stream('statuses/filter', {track: 'sex'}, function(stream){ //Filter by a word
+//twitter.stream('statuses/sample', {}, function(stream){ 
 	stream.on('data', function(data){
 		console.log(util.inspect(data));
+		//console.log(data.text);
+		console.log('\n\n' + data);
 		stream.destroy();
 		process.exit(0); //End node process
+	});
+
+	stream.on('error', function(error){
+		throw error;
 	});
 });
