@@ -7,6 +7,12 @@
 - to do: add javascript modules setup for node.js
 > https://github.com/BoyCook/TwitterJSClient
 
+- Install node.js from https://nodejs.org/en/download/
+** Or use a package manager with homebrew via**
+* brew install node
+
+
+
 ### Development Guidelines
 
 - start a branch for new `features, bug-fixes, experimental-stuff`
