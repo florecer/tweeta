@@ -11,6 +11,8 @@
 ** Or use a package manager with homebrew via**
 * brew install node
 
+- Install the package for twitter api with npm 
+* npm install twitter
 
 
 ### Development Guidelines
