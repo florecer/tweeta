@@ -1,0 +1,27 @@
+{
+  "name": "tweeta",
+  "version": "1.0.0",
+  "description": "Twitter app for IPad",
+  "main": "twitter.js",
+  "dependencies": {
+    "twitter": "^1.2.5"
+   },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node twitter.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamons/tweeta.git"
+  },
+  "keywords": [
+    "Twitter",
+    "API"
+  ],
+  "author": "@EEsparaquia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jamons/tweeta/issues"
+  },
+  "homepage": "https://github.com/jamons/tweeta#readme"
+}
