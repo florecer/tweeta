@@ -4,11 +4,15 @@
   "description": "Twitter app for IPad",
   "main": "twitter.js",
   "dependencies": {
+    "material-design-lite": "^1.0.6",
     "twitter": "^1.2.5"
-   },
-  "devDependencies": {},
+  },
+  "devDependencies": {
+    "http-server": "^0.8.5"
+  },
   "scripts": {
-    "test": "node twitter.js"
+    "test": "node twitter.js",
+    "start": "node_modules/.bin/http-server"
   },
   "repository": {
     "type": "git",
