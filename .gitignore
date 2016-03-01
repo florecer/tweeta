@@ -7,3 +7,4 @@ twitter.html
 twitter.js
 
 node_modules/
+.env
